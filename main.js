@@ -2,7 +2,7 @@ $(document).ready(function(){
 
     $('#input').change(function(){
         var input = $(this).val();
-        $('ul').append('<li>' + input + ` <i class="fa-check"></i> <i class="fa-trash"></i> </li>`);
+        $('ul').append('<li>' + input + ' <i class="fas fa-check"></i> <i class="fas fa-trash"></i> </li>');
         $(this).val();
     });
     $('ul').on('click','.fa-trash',function(){
